@@ -1,0 +1,555 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1rem;
+}
+ 
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3867d6;
+    position: fixed;
+   padding: 0 50px;
+}
+ 
+.nav-logo a{
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+     
+}
+ 
+.nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 30px;
+    color: white;
+}
+.navbar .menu-bar{
+    display: none;
+}
+.nav .cancel{
+    display: none;
+}
+a .active{
+    color:rgb(249, 173, 140);
+}
+a:hover{
+    color:rgb(249, 173, 140);
+}
+/* .......home section............. */
+.home-section{
+    background-image: url('./img4.jpg');
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position :center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 70px;
+
+}
+.home-section .home{
+   width: 40%;
+}
+.home h1, h4,p{
+    color: white;
+    margin-bottom: 30px;
+}
+.home h1{
+    font-size: 30px;
+}
+.home h4{
+    font-size: 20px;
+}
+.home p{
+    font-size: 18px;
+    margin-top: 20px;  
+}
+.home a i{
+    margin-bottom: 30px;
+    color: #3867d6;
+}
+.home .bluebtn i{
+    color: white;
+}
+.home .bluebtn {
+    background-color: #3867d6;
+    color: white;
+}
+.home a{
+    width: 100px;
+    padding: 15px 20px;
+    background-color: white;
+    color:  #3867d6;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 300;
+}
+/* ..............about section............ */
+ 
+.about-section{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(244, 242, 242);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+.about-img{
+    width: 45%;
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+
+}
+.about-detail{
+    width: 50%;
+    background-color:white;
+    padding: 20px;
+}
+.about-detail p{
+    color: black;
+}
+.about-detail a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+   background-color: #3867d6;
+   color: white;
+   padding: 10px 15px;
+   border-radius: 4px;
+   font-weight: 300;
+   font-size: 1.3rem;
+}
+.about-detail a:focus{
+    background-color: white;
+    color: #3867d6;
+}
+.detail-body{
+    padding-top: 10px;
+}
+.detail-body h1 {
+  color: rgb(162, 162, 162);
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.detail-body h3 {
+    color: rgb(162, 162, 162);
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 900;
+  }
+.detail-body p {
+    color: rgb(159, 154, 154);
+  }
+ .db1{
+    display: none;
+ }
+ .db2{
+    display: none;
+ }
+.skill{
+    width: 100%;
+}
+.skill .skill-bar{
+    width: 50%;
+    height: 8px;
+    background-color: white;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+.skill .skill-bar .bar{
+    width: 90%;
+    height: 8px;
+    background-color: #3867d6;
+    border-radius: 4px;
+}
+.css-bar{
+    width: 80%;
+    height: 8px;
+    background-color: #3867d6;
+    border-radius: 4px;
+}
+.js-bar{
+    width: 70%;
+    height: 8px;
+    background-color: #3867d6;
+    border-radius: 4px;
+}
+/* ...........service section................. */
+.service-section{
+    width: 100%;
+    color: black;
+    padding:70px;
+    text-align: center;
+}
+.service-section h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.service-section h3{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+ 
+.service-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.card1{
+    width: 45%;
+    padding: 40px 20px 40px 20px;
+    background-color: #3867d6;
+}
+.card1 i{
+    font-size: 50px;
+    background-color: bisque;
+    color: #3867d6;
+    padding: 10px;
+    border-radius: 4px;
+}
+.card1 img{
+    height: 65px;
+    width: 65px;
+    background-color: bisque;
+    color: #3867d6;
+    padding: 10px;
+    border-radius: 4px;
+}
+.card1 h1{
+    color: bisque;
+    margin-top: 40px;
+}
+.card1 p{
+    color: bisque;
+    margin-top: 40px;
+}
+.card1 button{
+    font-size: 20px;
+    background-color: bisque;
+    color: #3867d6;
+    padding: 5px 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+    font-weight: 700;
+}
+.card1 button i{
+    font-size: 16px;
+    color: #3867d6;
+}
+.service-section .p1{
+   margin-top: 60px;
+   color: black;
+   font-weight: 700;
+}
+.p1 a{
+    text-decoration: none;
+    color: blue;
+}
+.service-section .p2{
+    color: black;
+    font-size: 1.1rem;
+ }
+ /* ..............pricing section.................. */
+ .pricing-section{
+    padding: 70px;
+    background-color: rgb(246, 245, 245);
+ }
+ .service-card0{
+    justify-content: space-between;
+ }
+ .service-card0 .card0{
+    width: 30%;
+    border: 1px solid #3867d6;
+    background-color: white;
+    color: #3867d6;
+    box-shadow: 10px 20px 30px #3867d6;
+ }
+ .card0 h1, h2 {
+    color: #3867d6;
+    padding: 0%;
+    margin: 0%;
+ }
+ .card0 p{
+    color: black;
+ }
+ .card0 button{
+    border: 1px solid #3867d6;
+    padding: 10px 15px;
+    background-color: white;
+    color: #3867d6;
+ }
+ /* .............conatct section............ */
+ .contact-section{
+    width: 100%;
+    padding: 70px;
+ }
+ .info {
+    display: flex;
+    justify-content: space-between;
+ }
+ .info-detail{
+    width: 45%;
+    background-color: #3867d6;
+    padding: 20px;
+ }
+ .info-detail span{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+ }
+ .info-detail a img{
+    width: 40px;
+    height: 40px;
+    outline: none;
+    border-radius: 4px;
+    margin-right: 20px;
+    background-color: white;
+ }
+
+.info-detail h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+ }
+.info-detail ul li{
+    list-style: none;
+    margin-bottom: 30px;
+    color: white;
+}
+.info-detail ul li span{
+    font-weight: 900;
+    color: black;
+    font-size: 18px;
+}
+.message{
+    width: 45%;
+    background-color: #3867d6;
+    padding: 20px;
+ }
+ .message form {
+    width: 100%;
+ }
+.message form .ne{
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    width: 49%;
+    outline: none;
+    border: none;
+}
+.subject{
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    width: 99%;
+    outline: none;
+    border: none;
+}
+.message form textarea{
+    width: 99%;
+    outline: none;
+    border: none;
+}
+.message button{
+    border: 1px solid #3867d6;
+    padding: 10px 15px;
+    background-color: white;
+    color: #3867d6;
+    border-radius: 4px;
+    margin-top: 20px;
+ }
+ .message form input:focus{
+    border: 1px solid #3867d6;
+ }
+ .message form textarea:focus{
+    border: 1px solid #3867d6;
+ }
+ .contact-banner{
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3867d6;
+    align-items: center;
+ }
+ .text{
+    text-align: center;
+    width: 45%;
+ }
+ .text h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+ }
+ .buttons{
+    text-align: center;
+    width: 45%;
+ } 
+.buttons button{
+    width: 50%;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    color: #3867d6;
+}
+.buttons button:hover{
+    background-color: #3867d6;
+    color: white;
+    border: 1px solid white;
+}
+/* ...........footer.............. */
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #3867d6;
+
+}
+footer p{
+    text-align: center;
+    padding-top: 50px;
+}
+/* ...............responsive......................... */
+
+
+
+
+
+
+
+
+
+@media (max-width:799px) {
+    .navbar {
+        padding: 25px 0px;
+        
+    }
+    .nav-logo a {
+       margin-left: 20px;
+    }
+    .nav {
+        display: none;
+        width: 300px;
+        height: 100vh;
+        background-color: #3867d6;
+       position: absolute;
+       top:0;
+       right: 0%;
+       text-align: center;
+       padding-top: 100px;
+    }
+    .nav a{
+        display:block;
+       padding: 10px;
+       font-size: 20px;
+    }
+    
+  .nav .cancel{
+        display:initial;
+        font-size: 30px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+   .navbar .menu-bar{
+    display: initial;
+    padding-right: 50px;
+    font-size: 30px;
+    }
+    .home-section .home {
+        width: 100%;
+    }
+    .about-section {
+        display: flex;
+         flex-direction: column;
+    }
+    .about-img {
+        width: 100%;
+    }
+    .about-detail {
+        width: 100%;
+    }
+    .service-section .p1 {
+        font-size: 20px;
+    }
+    .service-section .p2 {
+        font-size: 20px;
+    }
+    .buttons button {
+        width: 100%;
+      
+    }
+    .about-section {
+        height: 100vh;
+        padding: 40px;
+    }
+   
+}
+
+@media (max-width:420px) {
+    .home-section {
+        
+        padding: 30px;
+    }
+    .home-section .home {
+        display: block;
+    }
+    .service-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 {
+        width: 100%;
+    }
+    .service-card0 .card0 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .info {
+        display: flex;
+      flex-direction: column;
+    }
+    .info-detail {
+        width: 100%;
+       
+    }
+    .message {
+        width: 100%;
+       margin-top: 20px;
+    }
+    .contact-banner {
+        display: flex;
+      flex-direction: column;
+    }
+    .text {
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+    }
+    .buttons {
+  
+        width: 100%;
+    }
+}
+
+
+
